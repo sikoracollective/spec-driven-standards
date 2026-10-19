@@ -17,6 +17,10 @@
 - Prefer the project's existing libraries, structure, and idioms over inventing new ones.
 - Reuse established patterns in the codebase before introducing alternatives.
 
+## Classes
+- Prefer one class per file.
+- Multiple classes in one file are allowed only when they clearly belong together and splitting them would hurt clarity.
+
 ## Naming and Style
 - Follow the naming and style conventions for the language and project.
 - Match the existing style in the codebase when modifying or extending it.
